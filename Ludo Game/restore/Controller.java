@@ -1,4 +1,4 @@
-package sample;
+package restore;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -156,15 +156,15 @@ public class Controller {
             public void run(){
                 System.out.println("Thread Running");
                 File file_2 = null;
-                File file1 = new File("src/sample/attachments/dice1.jpg");
-                File file2 = new File("src/sample/attachments/dice2.jpg");
-                File file3 = new File("src/sample/attachments/dice3.jpg");
-                File file4 = new File("src/sample/attachments/dice4.jpg");
-                File file5 = new File("src/sample/attachments/dice5.jpg");
-                File file6 = new File("src/sample/attachments/dice6.jpg");
+                File file1 = new File("src/sample/sample.attachments/dice1.jpg");
+                File file2 = new File("src/sample/sample.attachments/dice2.jpg");
+                File file3 = new File("src/sample/sample.attachments/dice3.jpg");
+                File file4 = new File("src/sample/sample.attachments/dice4.jpg");
+                File file5 = new File("src/sample/sample.attachments/dice5.jpg");
+                File file6 = new File("src/sample/sample.attachments/dice6.jpg");
                 try {
                     for (int i = 0; i < 5; i++) {
-                        file_2 = new File("src/sample/attachments/dice" + (random.nextInt(6)+1)+".jpg");
+                        file_2 = new File("src/sample/sample.attachments/dice" + (random.nextInt(6)+1)+".jpg");
                         dice.setImage(new Image(file_2.toURI().toString()));
 
                         Thread.sleep(50);
@@ -247,17 +247,17 @@ public class Controller {
         Thread thread = new Thread(){
             public void run(){
                 File file_2 = null;
-                File file6 = new File("src/sample/attachments/dice6.jpg");
-                File file1 = new File("src/sample/attachments/dice1.jpg");
-                File file2 = new File("src/sample/attachments/dice2.jpg");
-                File file3 = new File("src/sample/attachments/dice3.jpg");
-                File file4 = new File("src/sample/attachments/dice4.jpg");
-                File file5 = new File("src/sample/attachments/dice5.jpg");
+                File file6 = new File("src/sample/sample.attachments/dice6.jpg");
+                File file1 = new File("src/sample/sample.attachments/dice1.jpg");
+                File file2 = new File("src/sample/sample.attachments/dice2.jpg");
+                File file3 = new File("src/sample/sample.attachments/dice3.jpg");
+                File file4 = new File("src/sample/sample.attachments/dice4.jpg");
+                File file5 = new File("src/sample/sample.attachments/dice5.jpg");
                 System.out.println("Thread Running");
 
                 try {
                     for (int i = 0; i < 5; i++) {
-                        file_2 = new File("src/sample/attachments/dice" + (random.nextInt(6)+1)+".jpg");
+                        file_2 = new File("src/sample/sample.attachments/dice" + (random.nextInt(6)+1)+".jpg");
                         diceimage2.setImage(new Image(file_2.toURI().toString()));
                         Thread.sleep(50);
                     }

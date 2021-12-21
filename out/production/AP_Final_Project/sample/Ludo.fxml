@@ -93,14 +93,14 @@
                 <SVGPath content="M9.5 14.25l-5.584 2.936 1.066-6.218L.465 6.564l6.243-.907L9.5 0l2.792 5.657 6.243.907-4.517 4.404 1.066 6.218" fill="#658cc3" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER" />
                 <SVGPath content="M9.5 14.25l-5.584 2.936 1.066-6.218L.465 6.564l6.243-.907L9.5 0l2.792 5.657 6.243.907-4.517 4.404 1.066 6.218" fill="#658cc3" GridPane.columnIndex="12" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="CENTER" />
                 <SVGPath content="M9.5 14.25l-5.584 2.936 1.066-6.218L.465 6.564l6.243-.907L9.5 0l2.792 5.657 6.243.907-4.517 4.404 1.066 6.218" fill="#658cc3" GridPane.columnIndex="8" GridPane.halignment="CENTER" GridPane.rowIndex="12" GridPane.valignment="CENTER" />
-            <SVGPath content="M204.19,317.5,192,336.41,179.81,317.5h7.69v-37h9v37Z" fill="#29ef23" scaleX="0.3" scaleY="0.3" stroke="BLACK" strokeWidth="0.1" GridPane.columnIndex="7" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
-               <GridPane.margin>
-                  <Insets />
-               </GridPane.margin>
-            </SVGPath>
-            <SVGPath content="M204.19,317.5,192,336.41,179.81,317.5h7.69v-37h9v37Z" fill="#de2800" rotate="270.0" scaleX="0.3" scaleY="0.3" GridPane.halignment="CENTER" GridPane.rowIndex="7" GridPane.valignment="CENTER" />
-            <SVGPath content="M204.19,317.5,192,336.41,179.81,317.5h7.69v-37h9v37Z" fill="#0a9ee6" rotate="180.0" scaleX="0.3" scaleY="0.3" GridPane.columnIndex="7" GridPane.halignment="CENTER" GridPane.rowIndex="14" GridPane.valignment="CENTER" />
-            <SVGPath content="M204.19,317.5,192,336.41,179.81,317.5h7.69v-37h9v37Z" fill="#fbd300" rotate="90.0" scaleX="0.3" scaleY="0.3" GridPane.columnIndex="14" GridPane.halignment="CENTER" GridPane.rowIndex="7" GridPane.valignment="CENTER" />
+                <SVGPath content="M204.19,317.5,192,336.41,179.81,317.5h7.69v-37h9v37Z" fill="#29ef23" scaleX="0.3" scaleY="0.3" stroke="BLACK" strokeWidth="0.1" GridPane.columnIndex="7" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+                    <GridPane.margin>
+                        <Insets />
+                    </GridPane.margin>
+                </SVGPath>
+                <SVGPath content="M204.19,317.5,192,336.41,179.81,317.5h7.69v-37h9v37Z" fill="#de2800" rotate="270.0" scaleX="0.3" scaleY="0.3" GridPane.halignment="CENTER" GridPane.rowIndex="7" GridPane.valignment="CENTER" />
+                <SVGPath content="M204.19,317.5,192,336.41,179.81,317.5h7.69v-37h9v37Z" fill="#0a9ee6" rotate="180.0" scaleX="0.3" scaleY="0.3" GridPane.columnIndex="7" GridPane.halignment="CENTER" GridPane.rowIndex="14" GridPane.valignment="CENTER" />
+                <SVGPath content="M204.19,317.5,192,336.41,179.81,317.5h7.69v-37h9v37Z" fill="#fbd300" rotate="90.0" scaleX="0.3" scaleY="0.3" GridPane.columnIndex="14" GridPane.halignment="CENTER" GridPane.rowIndex="7" GridPane.valignment="CENTER" />
             </children>
         </GridPane>
         <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1cb36c" height="153.0" layoutX="292.0" layoutY="159.0" stroke="#42d956" strokeType="INSIDE" width="154.0" />
