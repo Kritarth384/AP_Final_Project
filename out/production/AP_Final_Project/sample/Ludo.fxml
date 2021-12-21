@@ -147,9 +147,42 @@
         <Button fx:id="p1o4" layoutX="156.0" layoutY="428.0" mnemonicParsing="false" onAction="#clickob4" prefHeight="25.0" prefWidth="26.0" text="Button" />
         <Button fx:id="p1o3" layoutX="104.0" layoutY="429.0" mnemonicParsing="false" onAction="#clickob3" prefHeight="25.0" prefWidth="26.0" text="Button" />
         <Button fx:id="p1o2" layoutX="104.0" layoutY="481.0" mnemonicParsing="false" onAction="#clickob2" prefHeight="25.0" prefWidth="26.0" text="Button" />
-        <Button fx:id="p2o3" layoutX="334.0" layoutY="199.0" mnemonicParsing="false" onAction="#click1ob3" prefHeight="25.0" prefWidth="26.0" text="Button" />
-        <Button fx:id="p2o1" layoutX="385.0" layoutY="248.0" mnemonicParsing="false" onAction="#click1ob1" prefHeight="25.0" prefWidth="26.0" text="Button" />
-        <Button fx:id="p2o2" layoutX="334.0" layoutY="250.0" mnemonicParsing="false" onAction="#click1ob2" prefHeight="25.0" prefWidth="26.0" text="Button" />
-        <Button fx:id="p2o4" layoutX="385.0" layoutY="199.0" mnemonicParsing="false" onAction="#click1ob4" prefHeight="25.0" prefWidth="26.0" text="Button" />
+        <Button fx:id="p2o3" alignment="CENTER" contentDisplay="CENTER" layoutX="328.0" layoutY="184.0" mnemonicParsing="false" onAction="#click1ob3" prefHeight="25.0" prefWidth="26.0" style="-fx-background-color: transparent;">
+         <graphic>
+            <ImageView fitHeight="34.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@attachments/GREEN.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+        <Button fx:id="p2o1" alignment="CENTER" contentDisplay="CENTER" layoutX="379.0" layoutY="233.0" mnemonicParsing="false" onAction="#click1ob1" prefHeight="25.0" prefWidth="26.0" style="-fx-background-color: transparent;">
+         <graphic>
+            <ImageView fitHeight="34.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@attachments/GREEN.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+        <Button fx:id="p2o2" alignment="CENTER" contentDisplay="CENTER" layoutX="328.0" layoutY="234.0" mnemonicParsing="false" onAction="#click1ob2" prefHeight="25.0" prefWidth="26.0" style="-fx-background-color: transparent;">
+         <graphic>
+            <ImageView fitHeight="34.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@attachments/GREEN.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+        <Button fx:id="p2o4" alignment="CENTER" contentDisplay="TOP" layoutX="379.0" layoutY="174.0" mnemonicParsing="false" onAction="#click1ob4" prefHeight="40.0" prefWidth="38.0" style="-fx-background-color: transparent;">
+         <graphic>
+            <ImageView fitHeight="34.0" fitWidth="56.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@attachments/GREEN.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+
+
+
+
     </children>
 </Pane>
