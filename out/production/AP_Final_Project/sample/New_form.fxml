@@ -10,6 +10,7 @@
 <?import javafx.scene.shape.Circle?>
 <?import javafx.scene.shape.Polygon?>
 <?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.shape.SVGPath?>
 
 <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="684.0" prefWidth="928.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
    <children>
@@ -61,60 +62,72 @@
             <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#29ef23" height="26.0" stroke="#29ef23" strokeType="INSIDE" width="26.0" GridPane.columnIndex="7" GridPane.rowIndex="2" />
             <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#29ef23" height="26.0" stroke="#29ef23" strokeType="INSIDE" width="26.0" GridPane.columnIndex="7" GridPane.rowIndex="1" />
             <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#29ef23" height="26.0" stroke="#29ef23" strokeType="INSIDE" width="26.0" GridPane.columnIndex="8" GridPane.rowIndex="1" />
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff2121" height="26.0" stroke="#ff2121" strokeType="INSIDE" width="26.0" GridPane.columnIndex="1" GridPane.rowIndex="6" />
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff2121" height="26.0" stroke="#ff2121" strokeType="INSIDE" width="26.0" GridPane.columnIndex="2" GridPane.rowIndex="7" />
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff2121" height="26.0" stroke="#ff2121" strokeType="INSIDE" width="26.0" GridPane.columnIndex="1" GridPane.rowIndex="7" />
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff2121" height="26.0" stroke="#ff2121" strokeType="INSIDE" width="26.0" GridPane.columnIndex="3" GridPane.rowIndex="7" />
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff2121" height="26.0" stroke="#ff2121" strokeType="INSIDE" width="26.0" GridPane.columnIndex="4" GridPane.rowIndex="7" />
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff2121" height="26.0" stroke="#ff2121" strokeType="INSIDE" width="26.0" GridPane.columnIndex="5" GridPane.rowIndex="7" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f84c1e" height="26.0" stroke="#ff2121" strokeType="INSIDE" width="26.0" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f84c1e" height="26.0" stroke="#ff2121" strokeType="INSIDE" width="26.0" GridPane.columnIndex="2" GridPane.rowIndex="7" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f84c1e" height="26.0" stroke="#ff2121" strokeType="INSIDE" width="26.0" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f84c1e" height="26.0" stroke="#ff2121" strokeType="INSIDE" width="26.0" GridPane.columnIndex="3" GridPane.rowIndex="7" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f84c1e" height="26.0" stroke="#ff2121" strokeType="INSIDE" width="26.0" GridPane.columnIndex="4" GridPane.rowIndex="7" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f84c1e" height="26.0" stroke="#ff2121" strokeType="INSIDE" width="26.0" GridPane.columnIndex="5" GridPane.rowIndex="7" />
             <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#21d0ff" height="26.0" stroke="#21d0ff" strokeType="INSIDE" width="26.0" GridPane.columnIndex="7" GridPane.rowIndex="9" />
             <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#21d0ff" height="26.0" stroke="#21d0ff" strokeType="INSIDE" width="26.0" GridPane.columnIndex="7" GridPane.rowIndex="10" />
             <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#21d0ff" height="26.0" stroke="#21d0ff" strokeType="INSIDE" width="26.0" GridPane.columnIndex="7" GridPane.rowIndex="11" />
             <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#21d0ff" height="26.0" stroke="#21d0ff" strokeType="INSIDE" width="26.0" GridPane.columnIndex="7" GridPane.rowIndex="12" />
             <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#21d0ff" height="26.0" stroke="#21d0ff" strokeType="INSIDE" width="26.0" GridPane.columnIndex="7" GridPane.rowIndex="13" />
             <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#21d0ff" height="26.0" stroke="#21d0ff" strokeType="INSIDE" width="26.0" GridPane.columnIndex="6" GridPane.rowIndex="13" />
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffe500" height="26.0" stroke="#ffe500" strokeType="INSIDE" width="26.0" GridPane.columnIndex="9" GridPane.rowIndex="7" />
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffe500" height="26.0" stroke="#ffe500" strokeType="INSIDE" width="26.0" GridPane.columnIndex="10" GridPane.rowIndex="7" />
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffe500" height="26.0" stroke="#ffe500" strokeType="INSIDE" width="26.0" GridPane.columnIndex="11" GridPane.rowIndex="7" />
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffe500" height="26.0" stroke="#ffe500" strokeType="INSIDE" width="26.0" GridPane.columnIndex="12" GridPane.rowIndex="7" />
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffe500" height="26.0" stroke="#ffe500" strokeType="INSIDE" width="26.0" GridPane.columnIndex="13" GridPane.rowIndex="7" />
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffe500" height="26.0" stroke="#ffe500" strokeType="INSIDE" width="26.0" GridPane.columnIndex="13" GridPane.rowIndex="8" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f9dd00" height="26.0" stroke="#ffe500" strokeType="INSIDE" width="26.0" GridPane.columnIndex="9" GridPane.rowIndex="7" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f9dd00" height="26.0" stroke="#ffe500" strokeType="INSIDE" width="26.0" GridPane.columnIndex="10" GridPane.rowIndex="7" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f9dd00" height="26.0" stroke="#ffe500" strokeType="INSIDE" width="26.0" GridPane.columnIndex="11" GridPane.rowIndex="7" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f9dd00" height="26.0" stroke="#ffe500" strokeType="INSIDE" width="26.0" GridPane.columnIndex="12" GridPane.rowIndex="7" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f9dd00" height="26.0" stroke="#ffe500" strokeType="INSIDE" width="26.0" GridPane.columnIndex="13" GridPane.rowIndex="7" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f9dd00" height="26.0" stroke="#ffe500" strokeType="INSIDE" width="26.0" GridPane.columnIndex="13" GridPane.rowIndex="8" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#b3c6cd" height="26.0" stroke="#ff2121" strokeType="INSIDE" strokeWidth="0.0" width="26.0" GridPane.columnIndex="6" GridPane.rowIndex="2" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#b3c6cd" height="26.0" stroke="#ff2121" strokeType="INSIDE" strokeWidth="0.0" width="26.0" GridPane.columnIndex="12" GridPane.rowIndex="6" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#b3c6cd" height="26.0" stroke="#ff2121" strokeType="INSIDE" strokeWidth="0.0" width="26.0" GridPane.columnIndex="8" GridPane.rowIndex="12" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#b3c6cd" height="26.0" stroke="#ff2121" strokeType="INSIDE" strokeWidth="0.0" width="26.0" GridPane.columnIndex="2" GridPane.rowIndex="8" />
+            <SVGPath content="M9.5 14.25l-5.584 2.936 1.066-6.218L.465 6.564l6.243-.907L9.5 0l2.792 5.657 6.243.907-4.517 4.404 1.066 6.218" fill="#97361d" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="CENTER" />
+            <SVGPath content="M9.5 14.25l-5.584 2.936 1.066-6.218L.465 6.564l6.243-.907L9.5 0l2.792 5.657 6.243.907-4.517 4.404 1.066 6.218" fill="#1c985c" GridPane.columnIndex="8" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+            <SVGPath content="M9.5 14.25l-5.584 2.936 1.066-6.218L.465 6.564l6.243-.907L9.5 0l2.792 5.657 6.243.907-4.517 4.404 1.066 6.218" fill="#8c7a18" GridPane.columnIndex="13" GridPane.halignment="CENTER" GridPane.rowIndex="8" GridPane.valignment="CENTER" />
+            <SVGPath content="M9.5 14.25l-5.584 2.936 1.066-6.218L.465 6.564l6.243-.907L9.5 0l2.792 5.657 6.243.907-4.517 4.404 1.066 6.218" fill="#237fbe" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.rowIndex="13" GridPane.valignment="CENTER" />
+            <SVGPath content="M9.5 14.25l-5.584 2.936 1.066-6.218L.465 6.564l6.243-.907L9.5 0l2.792 5.657 6.243.907-4.517 4.404 1.066 6.218" fill="#658cc3" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="8" GridPane.valignment="CENTER" />
+            <SVGPath content="M9.5 14.25l-5.584 2.936 1.066-6.218L.465 6.564l6.243-.907L9.5 0l2.792 5.657 6.243.907-4.517 4.404 1.066 6.218" fill="#658cc3" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER" />
+            <SVGPath content="M9.5 14.25l-5.584 2.936 1.066-6.218L.465 6.564l6.243-.907L9.5 0l2.792 5.657 6.243.907-4.517 4.404 1.066 6.218" fill="#658cc3" GridPane.columnIndex="12" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="CENTER" />
+            <SVGPath content="M9.5 14.25l-5.584 2.936 1.066-6.218L.465 6.564l6.243-.907L9.5 0l2.792 5.657 6.243.907-4.517 4.404 1.066 6.218" fill="#658cc3" GridPane.columnIndex="8" GridPane.halignment="CENTER" GridPane.rowIndex="12" GridPane.valignment="CENTER" />
          </children>
       </GridPane>
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#29ef23" height="153.0" layoutX="295.0" layoutY="159.0" stroke="#42d956" strokeType="INSIDE" width="154.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1cb36c" height="153.0" layoutX="292.0" layoutY="159.0" stroke="#42d956" strokeType="INSIDE" width="154.0" />
       <ImageView fitHeight="684.0" fitWidth="414.0" layoutX="522.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../../../Screenshot_2021-12-17-18-56-00-29_b2583667b2320b39a6a64b1c34fe2261.jpg" />
          </image>
       </ImageView>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="78.0" layoutX="219.0" layoutY="312.0" stroke="BLACK" strokeType="INSIDE" width="77.0" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff2121" height="153.0" layoutX="65.0" layoutY="159.0" stroke="#fa272e" strokeType="INSIDE" width="154.0" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#21d0ff" height="153.0" layoutX="64.0" layoutY="389.0" stroke="#3acccf" strokeType="INSIDE" width="154.0" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffe500" height="153.0" layoutX="295.0" layoutY="389.0" stroke="#dcd43d" strokeType="INSIDE" width="154.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fd1e00" height="153.0" layoutX="65.0" layoutY="159.0" stroke="#fa272e" strokeType="INSIDE" width="154.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#0a9ee6" height="153.0" layoutX="64.0" layoutY="387.0" stroke="#3acccf" strokeType="INSIDE" width="154.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fbd300" height="153.0" layoutX="292.0" layoutY="387.0" stroke="#dcd43d" strokeType="INSIDE" width="154.0" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="106.0" layoutX="89.0" layoutY="182.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.5" width="107.0" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="106.0" layoutX="319.0" layoutY="183.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.5" width="107.0" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="106.0" layoutX="320.0" layoutY="414.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.5" width="107.0" />
       <Rectangle fx:id="p1white" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="106.0" layoutX="89.0" layoutY="414.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.5" width="107.0" />
-      <Circle fill="#cf2e2e" layoutX="117.0" layoutY="211.0" radius="18.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.3" />
-      <Circle fill="#cf2e2e" layoutX="117.0" layoutY="262.0" radius="18.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.3" />
-      <Circle fill="#cf2e2e" layoutX="169.0" layoutY="211.0" radius="18.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.3" />
-      <Circle fill="#cf2e2e" layoutX="169.0" layoutY="262.0" radius="18.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.3" />
-      <Circle fill="#2acf21" layoutX="347.0" layoutY="211.0" radius="18.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.3" />
-      <Circle fill="#1fa3c4" layoutX="117.0" layoutY="440.0" radius="18.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.3" />
-      <Circle fill="#2acf21" layoutX="398.0" layoutY="260.0" radius="18.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.3" />
-      <Circle fill="#2acf21" layoutX="398.0" layoutY="211.0" radius="18.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.3" />
-      <Circle fill="#2acf21" layoutX="347.0" layoutY="261.0" radius="18.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.3" />
-      <Circle fill="#1fa3c4" layoutX="117.0" layoutY="493.0" radius="18.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.3" />
-      <Circle fill="#1fa3c4" layoutX="169.0" layoutY="440.0" radius="18.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.3" />
-      <Circle fill="#d4cd00" layoutX="348.0" layoutY="493.0" radius="18.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.3" />
-      <Circle fill="#d4cd00" layoutX="348.0" layoutY="441.0" radius="18.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.3" />
-      <Circle fill="#d4cd00" layoutX="398.0" layoutY="492.0" radius="18.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.3" />
-      <Circle fill="#d4cd00" layoutX="398.0" layoutY="441.0" radius="18.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.3" />
-      <Circle fill="#1fa3c4" layoutX="169.0" layoutY="493.0" radius="18.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.3" />
+      <Circle fill="#de2800" layoutX="117.0" layoutY="211.0" radius="18.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.3" />
+      <Circle fill="#de2800" layoutX="117.0" layoutY="262.0" radius="18.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.3" />
+      <Circle fill="#de2800" layoutX="169.0" layoutY="211.0" radius="18.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.3" />
+      <Circle fill="#de2800" layoutX="169.0" layoutY="262.0" radius="18.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.3" />
+      <Circle fill="#227f52" layoutX="347.0" layoutY="211.0" radius="18.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.3" />
+      <Circle fill="#116997" layoutX="117.0" layoutY="440.0" radius="18.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.3" />
+      <Circle fill="#227f52" layoutX="398.0" layoutY="260.0" radius="18.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.3" />
+      <Circle fill="#227f52" layoutX="398.0" layoutY="211.0" radius="18.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.3" />
+      <Circle fill="#227f52" layoutX="347.0" layoutY="261.0" radius="18.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.3" />
+      <Circle fill="#116997" layoutX="117.0" layoutY="493.0" radius="18.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.3" />
+      <Circle fill="#116997" layoutX="169.0" layoutY="440.0" radius="18.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.3" />
+      <Circle fill="#b99a01" layoutX="348.0" layoutY="493.0" radius="18.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.3" />
+      <Circle fill="#b99a01" layoutX="348.0" layoutY="441.0" radius="18.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.3" />
+      <Circle fill="#b99a01" layoutX="398.0" layoutY="492.0" radius="18.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.3" />
+      <Circle fill="#b99a01" layoutX="398.0" layoutY="441.0" radius="18.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.3" />
+      <Circle fill="#116997" layoutX="169.0" layoutY="493.0" radius="18.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.3" />
       <Polygon fill="#21d0ff" layoutX="258.0" layoutY="351.0" points="-39.79998779296875, 40.0, 40.20001220703125, 40.0, -0.5999755859375, 0.399993896484375" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.5" />
-      <Polygon fill="#ffe500" layoutX="277.0" layoutY="330.0" points="-39.79998779296875, 40.0, 40.20001220703125, 40.0, -0.5999755859375, 0.399993896484375" rotate="270.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.5" />
-      <Polygon fill="#ff2121" layoutX="237.0" layoutY="332.0" points="-39.79998779296875, 40.0, 40.20001220703125, 40.0, -0.5999755859375, 0.399993896484375" rotate="90.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.5" />
-      <Polygon fill="#29ef23" layoutX="256.0" layoutY="312.0" points="-39.79998779296875, 40.0, 40.20001220703125, 40.0, -0.5999755859375, 0.399993896484375" rotate="180.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.5" />
+      <Polygon fill="#f9dd00" layoutX="276.0" layoutY="331.0" points="-39.79998779296875, 40.0, 40.20001220703125, 40.0, -0.5999755859375, 0.399993896484375" rotate="270.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.5" />
+      <Polygon fill="#ff4d1d" layoutX="237.0" layoutY="332.0" points="-39.79998779296875, 40.0, 40.20001220703125, 40.0, -0.5999755859375, 0.399993896484375" rotate="90.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.5" />
+      <Polygon fill="#29ef23" layoutX="256.0" layoutY="311.0" points="-39.79998779296875, 40.0, 40.20001220703125, 40.0, -0.5999755859375, 0.399993896484375" rotate="180.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.5" />
       <ImageView fx:id="diceimage2" fitHeight="64.0" fitWidth="64.0" layoutX="85.0" layoutY="555.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@attachments/dice6.jpg" />
@@ -129,5 +142,7 @@
       <Button fx:id="p2o1" layoutX="385.0" layoutY="248.0" mnemonicParsing="false" onAction="#click1ob1" prefHeight="25.0" prefWidth="26.0" text="Button" />
       <Button fx:id="p2o2" layoutX="334.0" layoutY="250.0" mnemonicParsing="false" onAction="#click1ob2" prefHeight="25.0" prefWidth="26.0" text="Button" />
       <Button fx:id="p2o4" layoutX="385.0" layoutY="199.0" mnemonicParsing="false" onAction="#click1ob4" prefHeight="25.0" prefWidth="26.0" text="Button" />
+
+
    </children>
 </Pane>

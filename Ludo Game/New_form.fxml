@@ -142,5 +142,7 @@
       <Button fx:id="p2o1" layoutX="385.0" layoutY="248.0" mnemonicParsing="false" onAction="#click1ob1" prefHeight="25.0" prefWidth="26.0" text="Button" />
       <Button fx:id="p2o2" layoutX="334.0" layoutY="250.0" mnemonicParsing="false" onAction="#click1ob2" prefHeight="25.0" prefWidth="26.0" text="Button" />
       <Button fx:id="p2o4" layoutX="385.0" layoutY="199.0" mnemonicParsing="false" onAction="#click1ob4" prefHeight="25.0" prefWidth="26.0" text="Button" />
+
+
    </children>
 </Pane>
